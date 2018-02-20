@@ -1,0 +1,22 @@
+.btn {
+  padding: 12px 22px 12px 24px;
+
+  color: #ffffff;
+  background-color: #000000;
+  text-transform: uppercase;
+  font-family: "Georgia", serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  
+  border-radius: 0;
+  
+  svg {
+    margin-left: 8px;
+  }
+}
+
+.btn:hover {
+  color: #007bff;
+  transition: all .5s ease-in-out;
+}

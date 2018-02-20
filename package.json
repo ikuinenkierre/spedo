@@ -35,12 +35,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ikuinenkierre/pink.git"
+    "url": "git+https://github.com/ikuinenkierre/spedo.git"
   },
   "author": "ikuinenkierre",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ikuinenkierre/pink/issues"
+    "url": "https://github.com/ikuinenkierre/spedo/issues"
   },
-  "homepage": "https://github.com/ikuinenkierre/pink#readme"
+  "homepage": "https://github.com/ikuinenkierre/spedo#readme"
 }

@@ -1,0 +1,50 @@
+.offer {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  padding-left: 5px;
+
+  .offer-wrapper {
+    padding-right: 5.2rem;
+  }
+
+  h2 {
+    margin-bottom: 2.22rem;
+
+    font-family: "Georgia", serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: .18rem;
+  }
+
+  p {
+    margin-bottom: 3rem;
+
+    color: #6e6e6e;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    letter-spacing: .1rem;
+  }
+
+  .btn {
+    padding: 20px 25px 17px 28px;
+  }
+}
+
+@media (min-width: 992px) {
+  .offer {
+    padding-top: 21.6rem;
+    padding-bottom: 3.5rem;
+
+    background-image: url("../img/model-14.png");
+    background-repeat: no-repeat;
+    background-position: left 50.4vw bottom 0;
+
+    p {
+      margin-bottom: 7.5rem;
+    }
+  }
+}

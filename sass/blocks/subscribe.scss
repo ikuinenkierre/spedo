@@ -1,0 +1,72 @@
+.subscribe {
+  padding-top: 6.3rem;
+  padding-bottom: 6.3rem;
+
+  h2 {
+    margin-bottom: 1rem;
+
+    font-family: "Cairo", sans-serif;
+    font-size: .9rem;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  input {
+    height: 45px;
+    padding-top: 1.2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.1rem;
+    padding-left: 1.2rem;
+
+    border: 1px solid #000000;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }
+
+  input::placeholder {
+    color: #6e6e6e;
+    font-family: "Cairo", sans-serif;
+    font-size: .9rem;
+    text-transform: uppercase;  
+    letter-spacing: .05rem;
+  }
+
+  .btn {
+    height: 45px;
+    padding-top: 1.2rem;
+    padding-right: 1.7rem;
+    padding-bottom: 1.1rem;
+    padding-left: 1.7rem;
+
+    line-height: 1.15rem;
+    border: 1px solid #000000;
+  }
+}
+
+@media (min-width: 768px) {
+  .subscribe {
+    input {
+      height: auto;
+      padding-top: 1.4rem;
+      padding-right: 4rem;
+      padding-bottom: 1.3rem;
+    }
+
+    .btn {
+      height: auto;
+      margin-right: 29px;
+      padding-top: 1.4rem;
+      padding-bottom: 1.3rem;
+    }
+  }
+
+}
+
+@media (min-width: 992px) {
+  .subscribe {
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+}

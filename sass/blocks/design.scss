@@ -1,0 +1,54 @@
+.design {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  p {
+    margin-bottom: 1rem;
+
+    font-family: "Cairo", sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+  }
+
+  h2 {
+    margin-bottom: 1.1rem;
+
+    font-family: "Georgia", serif;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: .17rem;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  a {
+    display: block;
+
+    color: #666666;
+    font-family: Montserrat, serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+
+    svg {
+      margin-left: 5px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .design {
+    padding-top: 15.3rem;
+    padding-bottom: 11.9rem;
+
+    background-image: url("../img/model-13.png");
+    background-repeat: no-repeat;
+    background-position: left 40.5vw top 0;
+    background-size: cover;
+    background-position: left 50.5vw top 39px;
+    background-size: auto;
+  }
+}

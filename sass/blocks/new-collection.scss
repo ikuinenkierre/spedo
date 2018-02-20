@@ -1,0 +1,133 @@
+.new-collection {
+  padding-top: 40px;
+  margin-bottom: 45px;
+
+  background-color: #baf9c4;
+  
+  .container {
+    padding-left: 2rem;
+  }
+
+  .new-collection-text-wrapper {
+    padding-bottom: 47px;
+  }
+
+  .time {
+    margin-bottom: .8rem;
+
+    font-family: "Cairo", sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+
+    color: #000000;
+    font-family: "Georgia", serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 37px;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+  }
+
+  .desc {
+    margin-bottom: 38px;
+
+    color: #6e6e6e;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 1px;
+  }
+
+  .carousel-wrapper {
+    position: relative;
+  }
+
+  .carousel-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 444px;
+    bottom: 3px;
+    left: 55px;
+
+    border: 1px solid #000000;
+  }
+
+  .carousel-indicators {
+    flex-direction: column;
+    left: 96%;
+    bottom: 213px;
+    margin-left: 0;
+    margin-right: 0;
+
+    [data-slide-to] {
+      cursor: pointer;
+    }
+    
+    li {
+      width: 12px;
+      height: 12px;
+      margin-bottom: 7px;
+
+      background-color: #000000;
+
+      border-radius: 50%;
+    }
+
+    li.active {
+      background-color: transparent;
+      border: 1px solid #000000;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .new-collection {
+    .container {
+      padding-left: 2rem;
+    }
+
+    h2 {
+      line-height: 60px;
+    }
+
+    .carousel-wrapper::before {
+      width: 306px;
+      left: 102px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .new-collection {
+    padding-top: 96px;
+    margin-bottom: 102px;
+
+    .container {
+      padding-left: 6.6rem;
+    }
+
+    .carousel-wrapper {
+      height: auto;
+    }
+
+    .new-collection-text-wrapper {
+      padding-bottom: 104px;
+    }
+
+    .carousel {
+      position: absolute;
+      bottom: 0;
+      left: 50px;
+      width: 495px;
+      height: 605px;
+    }
+  }
+}
