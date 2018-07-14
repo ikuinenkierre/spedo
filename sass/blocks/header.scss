@@ -103,6 +103,12 @@
     color: #6e6e6e;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+  }
+
+  .search-submit:focus,
+  .search-submit:active {
+    outline: none;
   }
 
   .form-inline {

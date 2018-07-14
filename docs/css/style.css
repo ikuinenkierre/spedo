@@ -525,7 +525,11 @@ a:hover {
     padding-right: 11px;
     color: #6e6e6e;
     background-color: transparent;
-    border: none; }
+    border: none;
+    cursor: pointer; }
+  .pages-nav .search-submit:focus,
+  .pages-nav .search-submit:active {
+    outline: none; }
   .pages-nav .form-inline {
     margin-top: 19px; }
   .pages-nav .form-control {
@@ -974,7 +978,7 @@ a:hover {
     letter-spacing: .05rem; }
   .subscribe .btn {
     height: 45px;
-    padding-top: 1.2rem;
+    padding-top: 0.8rem;
     padding-right: 1.7rem;
     padding-bottom: 1.1rem;
     padding-left: 1.7rem;
